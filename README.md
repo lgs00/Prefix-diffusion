@@ -17,12 +17,12 @@ pip install wandb
 ```
 
 ### Experiment
-train
+#### Train
 ```bash
 cd improved-diffusion
 bash script/train_diff.sh
 ```
-test
+#### Test
 ```bash
 bash script/generation.sh
 ```
