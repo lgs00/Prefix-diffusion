@@ -1,6 +1,6 @@
 # Diffusion-for-image-captioning
 ## diffusion for image captioning
-将连续扩散模型应用到图像描述领域，以非自回归的方式进行生成，得到更加多样的图像描述。
+The continuous diffusion model is applied to the field of image description and generated in a non-autoregressive way to obtain more diverse image descriptions.
 
 ### Setup
 
@@ -17,23 +17,33 @@ pip install wandb
 ```
 
 ### Experiment
-训练
+train
 ```bash
 cd improved-diffusion
 bash script/train_diff.sh
 ```
-测试
+test
 ```bash
 bash script/generation.sh
 ```
+Reference data formats are provided below：
+链接：https://pan.baidu.com/s/1x2bvPC3oxr0r4OaTz7E2tQ 
+提取码：7bdx
 
 ## Citations ##
 If you find this code useful in your research, please consider citing:
 ```bibtex
-@article{liu2023prefix,
-  title={Prefix-diffusion: A Lightweight Diffusion Model for Diverse Image Captioning},
-  author={Liu, Guisheng and Li, Yi and Fei, Zhengcong and Fu, Haiyan and Luo, Xiangyang and Guo, Yanqing},
-  journal={arXiv preprint arXiv:2309.04965},
-  year={2023}
+@inproceedings{liu-etal-2024-prefix,
+    title = "Prefix-diffusion: A Lightweight Diffusion Model for Diverse Image Captioning",
+    author = "Liu, Guisheng  and
+      Li, Yi  and
+      Fei, Zhengcong  and
+      Fu, Haiyan  and
+      Luo, Xiangyang  and
+      Guo, Yanqing",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    year = "2024",
+    url = "https://aclanthology.org/2024.lrec-main.1134",
+    pages = "12954--12965",
 }
 ```
